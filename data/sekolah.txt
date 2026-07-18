@@ -11,7 +11,7 @@ kecamatan: Manisrenggo
 kabupaten: Kab. Klaten
 provinsi: Jawa Tengah
 kode_pos: 57485
-email: sdnegeri2nangsri@yahoo.co.id
+email: sdnegeri2nangsri@gmail.com
 telepon: -
 tahun_berdiri: 1968
 akreditasi: A
