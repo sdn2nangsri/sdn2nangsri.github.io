@@ -1,0 +1,21 @@
+# Memeriksa format semua file data/*.txt pada tiap commit.
+# Bila format salah (mis. lupa "---" atau "kunci:"), commit diberi tanda ✗
+# di GitHub beserta keterangan barisnya — situs tidak ikut rusak diam-diam.
+name: Validasi data
+
+on:
+  push:
+    paths: ['data/**', 'assets/js/parser.js', 'scripts/**']
+  pull_request:
+    paths: ['data/**', 'assets/js/parser.js', 'scripts/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Periksa format file data
+        run: node scripts/validate-data.js

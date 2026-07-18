@@ -13,6 +13,9 @@ provinsi: Jawa Tengah
 kode_pos: 57485
 email: sdnegeri2nangsri@gmail.com
 telepon: -
+# Nomor WhatsApp sekolah, contoh: 0812-3456-7890
+# Isi "-" untuk menyembunyikan dari footer.
+whatsapp: -
 tahun_berdiri: 1968
 akreditasi: A
 akreditasi_sk: SK No. 044/BANSM-JTG/SK/X/2018 (16 Oktober 2018)

@@ -1,0 +1,37 @@
+# =============================================
+# SPMB / PPDB — Penerimaan Murid Baru (spmb.html)
+# Catatan: isi di bawah ini masih CONTOH — sesuaikan
+# dengan jadwal & ketentuan resmi tahun berjalan.
+#
+# status: dibuka / segera / ditutup  (mengatur warna badge)
+# Daftar (syarat, dokumen, alur) ditulis satu item per
+# baris diawali "- " dengan spasi di awal baris lanjutan.
+# =============================================
+tahun_ajaran: 2026/2027
+status: ditutup
+periode: 22 Juni – 4 Juli 2026
+kuota: 28 murid (1 rombongan belajar)
+pengumuman: 7 Juli 2026
+
+syarat: - Berusia 7 (tujuh) tahun atau paling rendah 6 tahun pada 1 Juli 2026
+  - Prioritas bagi calon murid berdomisili di wilayah zonasi sekolah
+  - Belum pernah terdaftar sebagai murid SD/sederajat
+
+dokumen: - Fotokopi Akta Kelahiran (1 lembar)
+  - Fotokopi Kartu Keluarga (1 lembar)
+  - Fotokopi KTP orang tua/wali (1 lembar)
+  - Pas foto 3×4 (2 lembar)
+  - Fotokopi ijazah TK/PAUD (jika ada)
+
+alur: - Orang tua/wali datang ke sekolah pada jam kerja (07.30–12.00 WIB) membawa dokumen persyaratan
+  - Mengisi formulir pendaftaran yang disediakan panitia
+  - Panitia memverifikasi kelengkapan dokumen
+  - Pengumuman hasil seleksi ditempel di papan pengumuman sekolah dan situs ini
+  - Daftar ulang murid yang diterima sesuai jadwal pengumuman
+
+kontak_nama: [Nama Panitia], S.Pd.
+kontak_wa: -
+
+catatan: Pendaftaran tidak dipungut biaya apa pun (gratis).
+  Informasi resmi lainnya diumumkan melalui papan pengumuman
+  sekolah dan halaman ini.

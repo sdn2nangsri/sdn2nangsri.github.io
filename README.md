@@ -13,7 +13,7 @@ Semua konten ada di folder `data/`. Cara paling mudah — langsung dari browser:
 
 | Ingin mengubah… | Edit file |
 |---|---|
-| Identitas sekolah (alamat, email, NPSN) | `data/sekolah.txt` |
+| Identitas sekolah (alamat, email, NPSN, nomor WhatsApp) | `data/sekolah.txt` |
 | Gambar slider di beranda (hero) | `data/hero.txt` + upload foto ke `assets/img/hero/` |
 | Visi, misi, sejarah, fasilitas, sambutan | `data/profil.txt` |
 | Daftar guru & karyawan | `data/guru.txt` |
@@ -24,6 +24,12 @@ Semua konten ada di folder `data/`. Cara paling mudah — langsung dari browser:
 | Ekstrakurikuler | `data/ekstrakurikuler.txt` |
 | Agenda kegiatan | `data/kalender.txt` |
 | Karya siswa di mading | `data/mading.txt` |
+| Info penerimaan murid baru (SPMB/PPDB) | `data/spmb.txt` |
+
+> 💡 Setiap commit yang mengubah folder `data/` otomatis diperiksa formatnya
+> oleh GitHub Actions. Tanda ✓ hijau = format benar. Jika muncul tanda ✗
+> merah, klik tanda itu untuk melihat baris mana yang salah, lalu perbaiki —
+> kesalahan format bisa membuat sebagian isi halaman tidak tampil.
 
 ### Aturan format `.txt`
 
@@ -76,4 +82,6 @@ assets/js/main.js                         → header, nav, footer bersama
 assets/js/page-*.js                       → logika render per halaman
 assets/img/                               → logo & gambar (galeri, berita, mading, guru)
 data/                                     → SEMUA KONTEN situs (.txt)
+scripts/validate-data.js                  → pemeriksa format data (dijalankan GitHub Actions)
+robots.txt, sitemap.xml, manifest.json    → SEO & ikon aplikasi
 ```

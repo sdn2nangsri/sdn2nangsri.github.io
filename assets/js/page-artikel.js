@@ -17,6 +17,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const { meta, body } = Parser.parseArticle(await res.text());
   document.title = meta.judul + ' — SD Negeri 2 Nangsri';
+
+  /* Meta description + Open Graph mengikuti isi artikel (untuk Google & bookmark). */
+  const ringkasan = body.replace(/\s+/g, ' ').trim().slice(0, 155);
+  const setMeta = (selector, content) => {
+    const el = document.querySelector(selector);
+    if (el && content) el.setAttribute('content', content);
+  };
+  setMeta('meta[name="description"]', ringkasan);
+  setMeta('meta[property="og:title"]', meta.judul);
+  setMeta('meta[property="og:description"]', ringkasan);
+  document.querySelector('link[rel="canonical"]')?.setAttribute(
+    'href',
+    location.origin + location.pathname + '?id=' + encodeURIComponent(id)
+  );
   document.getElementById('judul').textContent = meta.judul;
   document.getElementById('meta').textContent = `${fmtDate(meta.tanggal)} · ${meta.penulis || ''}`;
 

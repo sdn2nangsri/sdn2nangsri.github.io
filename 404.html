@@ -4,15 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Halaman Tidak Ditemukan — SD Negeri 2 Nangsri</title>
-  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="robots" content="noindex">
+  <!-- Halaman 404 bisa tampil di URL sedalam apa pun, jadi semua path di
+       halaman ini absolut dari root. Jika situs dipindah ke subpath
+       (username.github.io/repo/), tambahkan nama repo di depan tiap path. -->
+  <link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html">
+        <img src="/assets/img/logo.svg" alt="Logo SD Negeri 2 Nangsri" width="44" height="44">
+        <span class="brand-text">
+          <strong>SD Negeri 2 Nangsri</strong>
+          <small>Manisrenggo, Kab. Klaten</small>
+        </span>
+      </a>
+    </div>
+  </header>
   <main>
     <div class="err">
       <h1>404</h1>
-      <p>Maaf, halaman yang Anda cari tidak ditemukan.</p>
-      <p><a class="btn" href="index.html">Kembali ke Beranda</a></p>
+      <p>Maaf, halaman yang Anda cari tidak ditemukan.<br>
+        Mungkin alamatnya salah ketik, atau halamannya sudah dipindahkan.</p>
+      <p><a class="btn" href="/index.html">Kembali ke Beranda</a></p>
+      <p class="muted">Atau kunjungi:
+        <a href="/profil.html">Profil</a> ·
+        <a href="/guru.html">Guru &amp; Karyawan</a> ·
+        <a href="/berita.html">Berita</a> ·
+        <a href="/galeri.html">Galeri</a> ·
+        <a href="/kalender.html">Kalender</a> ·
+        <a href="/spmb.html">SPMB</a>
+      </p>
     </div>
   </main>
 </body>

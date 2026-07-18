@@ -22,6 +22,7 @@ const NAV = [
   ['ekstrakurikuler.html', 'Ekstrakurikuler'],
   ['kalender.html', 'Kalender'],
   ['mading.html', 'Mading'],
+  ['spmb.html', 'SPMB'],
 ];
 
 function esc(s) {
@@ -55,6 +56,47 @@ function currentPage() {
   return file === 'artikel.html' ? 'berita.html' : file;
 }
 
+/* "0812-3456-7890" / "0812 345 678" -> "6281234567890" (format wa.me). */
+function waNumber(raw) {
+  const digits = String(raw || '').replace(/\D/g, '');
+  if (digits.length < 9) return '';
+  return digits.replace(/^0/, '62');
+}
+
+/* Data terstruktur schema.org (hanya di beranda) agar Google mengenali sekolah. */
+function initJsonLd(s) {
+  if (currentPage() !== 'index.html') return;
+  const base = location.origin + location.pathname.replace(/[^/]*$/, '');
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'ElementarySchool',
+    name: s.nama,
+    identifier: s.npsn ? 'NPSN ' + s.npsn : undefined,
+    url: base,
+    logo: base + 'assets/img/logo.svg',
+    email: s.email && s.email !== '-' ? s.email : undefined,
+    telephone: s.telepon && s.telepon !== '-' ? s.telepon : undefined,
+    foundingDate: s.tahun_berdiri || undefined,
+    slogan: s.tagline || undefined,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: s.alamat,
+      addressLocality: s.kecamatan,
+      addressRegion: s.provinsi,
+      postalCode: s.kode_pos,
+      addressCountry: 'ID',
+    },
+    geo:
+      s.lintang && s.bujur
+        ? { '@type': 'GeoCoordinates', latitude: Number(s.lintang), longitude: Number(s.bujur) }
+        : undefined,
+  };
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(ld, (k, v) => (v === undefined ? undefined : v));
+  document.head.appendChild(script);
+}
+
 /* Muat Google Analytics (gtag.js) bila "google_analytics" diisi di sekolah.txt. */
 function initAnalytics(s) {
   const id = (s.google_analytics || '').trim();
@@ -75,6 +117,7 @@ async function initLayout() {
   const s = await Site.load();
   const active = currentPage();
   initAnalytics(s);
+  initJsonLd(s);
 
   const headerEl = document.getElementById('site-header');
   if (headerEl) {
@@ -111,6 +154,10 @@ async function initLayout() {
   const footerEl = document.getElementById('site-footer');
   if (footerEl) {
     const maps = `https://www.google.com/maps?q=${encodeURIComponent(s.lintang + ',' + s.bujur)}&z=16&output=embed`;
+    const wa = waNumber(s.whatsapp);
+    const waRow = wa
+      ? `WhatsApp: <a href="https://wa.me/${wa}" target="_blank" rel="noopener">${esc(s.whatsapp)}</a><br>`
+      : '';
     footerEl.innerHTML = `
       <footer class="site-footer">
         <div class="container footer-grid">
@@ -120,7 +167,7 @@ async function initLayout() {
             <p>
               NPSN: ${esc(s.npsn)}<br>
               Akreditasi: ${esc(s.akreditasi)}<br>
-              Email: <a href="mailto:${esc(s.email)}">${esc(s.email)}</a>
+              ${waRow}Email: <a href="mailto:${esc(s.email)}">${esc(s.email)}</a>
             </p>
           </div>
           <div>

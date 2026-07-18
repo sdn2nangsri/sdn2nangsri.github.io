@@ -13,7 +13,9 @@ const Parser = (() => {
     const obj = {};
     let lastKey = null;
     let blankPending = false; // baris kosong di tengah nilai = pemisah bait/paragraf
-    for (const raw of String(text).split(/\r?\n/)) {
+    // Normalisasi CRLF: tanpa ini, sisa "\r" di ujung baris membuat regex
+    // kunci gagal cocok dan kunci terakhir tiap record hilang diam-diam.
+    for (const raw of String(text).replace(/\r\n?/g, '\n').split('\n')) {
       if (/^\s*#/.test(raw)) continue;
       if (!raw.trim()) {
         blankPending = true;
