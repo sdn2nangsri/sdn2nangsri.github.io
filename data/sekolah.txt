@@ -1,0 +1,22 @@
+# =============================================
+# IDENTITAS SEKOLAH — dipakai di header, footer,
+# dan beranda. Edit di sini, seluruh situs ikut.
+# =============================================
+nama: SD Negeri 2 Nangsri
+npsn: 20309360
+status: Negeri
+alamat: Brajan, Desa Nangsri, Kec. Manisrenggo, Kab. Klaten, Jawa Tengah 57485
+desa: Nangsri
+kecamatan: Manisrenggo
+kabupaten: Kab. Klaten
+provinsi: Jawa Tengah
+kode_pos: 57485
+email: sdnegeri2nangsri@yahoo.co.id
+telepon: -
+tahun_berdiri: 1968
+akreditasi: A
+akreditasi_sk: SK No. 044/BANSM-JTG/SK/X/2018 (16 Oktober 2018)
+waktu_belajar: Pagi, 6 hari sekolah
+lintang: -7.708542
+bujur: 110.515157
+tagline: Beriman, Cerdas, Terampil, dan Berbudi Pekerti Luhur

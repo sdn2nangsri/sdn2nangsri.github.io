@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SD Negeri 2 Nangsri — Manisrenggo, Klaten</title>
+  <meta name="description" content="Website resmi SD Negeri 2 Nangsri, Manisrenggo, Klaten. Informasi profil sekolah, guru, kesiswaan, berita, galeri, ekstrakurikuler, dan kalender kegiatan.">
+  <meta property="og:title" content="SD Negeri 2 Nangsri">
+  <meta property="og:description" content="Website resmi SD Negeri 2 Nangsri — Beriman, Cerdas, Terampil, dan Berbudi Pekerti Luhur.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/parser.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/animate.js" defer></script>
+  <script src="assets/js/page-home.js" defer></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-slides" id="hero-slides" aria-hidden="true"></div>
+      <button class="hero-arrow prev" id="hero-prev" aria-label="Gambar sebelumnya" hidden>‹</button>
+      <button class="hero-arrow next" id="hero-next" aria-label="Gambar berikutnya" hidden>›</button>
+      <div class="container">
+        <h1>SD Negeri 2 Nangsri</h1>
+        <p id="hero-tagline">Beriman, Cerdas, Terampil, dan Berbudi Pekerti Luhur</p>
+        <div class="badges" id="hero-badges"></div>
+        <a class="btn" href="profil.html">Tentang Sekolah</a>
+        <a class="btn ghost" href="berita.html">Baca Berita</a>
+        <div class="hero-dots" id="hero-dots" role="tablist" aria-label="Pilih gambar latar"></div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="stats" id="stats"></div>
+    </div>
+
+    <section class="block container">
+      <div class="section-title">
+        <h2>Berita Terbaru</h2>
+        <a class="section-more" href="berita.html">Lihat semua →</a>
+      </div>
+      <div class="grid grid-wide" id="berita-terbaru"><p class="loading">Memuat berita…</p></div>
+    </section>
+
+    <section class="block container">
+      <div class="section-title">
+        <h2>Agenda Terdekat</h2>
+        <a class="section-more" href="kalender.html">Kalender lengkap →</a>
+      </div>
+      <ul class="agenda" id="agenda-terdekat"><li class="loading">Memuat agenda…</li></ul>
+    </section>
+
+    <section class="block container">
+      <div class="section-title">
+        <h2>Ekstrakurikuler</h2>
+        <a class="section-more" href="ekstrakurikuler.html">Selengkapnya →</a>
+      </div>
+      <div class="grid" id="ekskul-ringkas"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

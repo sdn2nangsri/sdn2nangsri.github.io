@@ -1,0 +1,53 @@
+# =============================================
+# KALENDER KEGIATAN — halaman kalender.html
+# tanggal wajib format YYYY-MM-DD (agar bisa diurutkan)
+# sampai: (opsional) tanggal akhir untuk kegiatan
+# lebih dari satu hari.
+# =============================================
+tanggal: 2026-07-13
+sampai: 2026-07-15
+kegiatan: Masa Pengenalan Lingkungan Sekolah (MPLS)
+keterangan: Kegiatan pengenalan sekolah untuk siswa baru kelas 1.
+---
+tanggal: 2026-07-13
+kegiatan: Hari Pertama Tahun Ajaran 2026/2027
+keterangan: Upacara pembukaan tahun ajaran baru.
+---
+tanggal: 2026-08-14
+kegiatan: Peringatan Hari Pramuka
+keterangan: Upacara dan kegiatan kepramukaan.
+---
+tanggal: 2026-08-15
+kegiatan: Lomba Peringatan HUT RI ke-81
+keterangan: Aneka lomba untuk seluruh siswa di halaman sekolah.
+---
+tanggal: 2026-08-17
+kegiatan: Upacara HUT Kemerdekaan RI ke-81
+keterangan: Upacara bendera di sekolah / lapangan kecamatan.
+---
+tanggal: 2026-09-21
+sampai: 2026-09-26
+kegiatan: Penilaian Tengah Semester (PTS) Ganjil
+keterangan: Ujian tengah semester untuk seluruh kelas.
+---
+tanggal: 2026-10-28
+kegiatan: Peringatan Hari Sumpah Pemuda
+keterangan: Upacara dan lomba pidato singkat.
+---
+tanggal: 2026-11-25
+kegiatan: Peringatan Hari Guru Nasional
+keterangan: Upacara dan apresiasi untuk guru.
+---
+tanggal: 2026-12-07
+sampai: 2026-12-12
+kegiatan: Penilaian Akhir Semester (PAS) Ganjil
+keterangan: Ujian akhir semester ganjil.
+---
+tanggal: 2026-12-18
+kegiatan: Pembagian Rapor Semester Ganjil
+keterangan: Orang tua/wali mengambil rapor di kelas masing-masing.
+---
+tanggal: 2026-12-21
+sampai: 2027-01-02
+kegiatan: Libur Akhir Semester Ganjil
+keterangan: Kegiatan belajar mengajar diliburkan.

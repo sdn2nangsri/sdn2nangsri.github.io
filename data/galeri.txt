@@ -1,0 +1,44 @@
+# =============================================
+# GALERI — halaman galeri.html
+# foto: nama file di assets/img/galeri/
+# album: dipakai sebagai tombol filter otomatis
+# =============================================
+judul: Upacara Bendera Hari Senin
+album: Kegiatan Rutin
+foto: upacara.svg
+tanggal: 2026-07-13
+---
+judul: Senam Pagi Bersama
+album: Kegiatan Rutin
+foto: senam.svg
+tanggal: 2026-07-10
+---
+judul: Pembelajaran di Kelas
+album: Pembelajaran
+foto: kelas.svg
+tanggal: 2026-07-08
+---
+judul: Kegiatan Literasi di Perpustakaan
+album: Pembelajaran
+foto: literasi.svg
+tanggal: 2026-07-06
+---
+judul: Latihan Pramuka
+album: Ekstrakurikuler
+foto: pramuka.svg
+tanggal: 2026-07-04
+---
+judul: Kerja Bakti Jumat Bersih
+album: Kegiatan Rutin
+foto: kerjabakti.svg
+tanggal: 2026-07-03
+---
+judul: Lomba Peringatan Hari Kemerdekaan
+album: Acara Sekolah
+foto: lomba17an.svg
+tanggal: 2025-08-16
+---
+judul: Pentas Seni Akhir Tahun
+album: Acara Sekolah
+foto: pentas.svg
+tanggal: 2025-06-20

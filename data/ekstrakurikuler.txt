@@ -1,0 +1,38 @@
+# =============================================
+# EKSTRAKURIKULER — halaman ekstrakurikuler.html
+# ikon: emoji bebas sebagai ilustrasi kartu
+# =============================================
+nama: Pramuka
+ikon: ⚜️
+pembina: [Nama Pembina]
+jadwal: Jumat, 14.00–15.30 WIB
+deskripsi: Ekstrakurikuler wajib bagi kelas 3–6. Melatih kemandirian, kedisiplinan,
+  kerja sama, dan cinta tanah air melalui kegiatan kepramukaan siaga dan penggalang.
+---
+nama: Seni Tari
+ikon: 💃
+pembina: [Nama Pembina]
+jadwal: Rabu, 13.00–14.30 WIB
+deskripsi: Mengenalkan dan melestarikan tari tradisional Jawa serta melatih
+  kepercayaan diri siswa untuk tampil di berbagai acara sekolah dan kecamatan.
+---
+nama: Baca Tulis Al-Qur'an (BTA)
+ikon: 📖
+pembina: [Nama Pembina]
+jadwal: Selasa & Kamis, 13.00–14.00 WIB
+deskripsi: Membimbing siswa agar lancar membaca dan menulis Al-Qur'an serta
+  memperdalam pendidikan karakter religius.
+---
+nama: Olahraga (Voli Mini & Atletik)
+ikon: 🏐
+pembina: [Nama Pembina]
+jadwal: Sabtu, 07.00–09.00 WIB
+deskripsi: Pembinaan bakat olahraga untuk persiapan O2SN serta menumbuhkan budaya
+  hidup sehat dan sportivitas.
+---
+nama: Komputer / TIK Dasar
+ikon: 💻
+pembina: [Nama Pembina]
+jadwal: Senin, 13.00–14.00 WIB
+deskripsi: Pengenalan komputer dan literasi digital dasar untuk membekali siswa
+  menghadapi era teknologi.

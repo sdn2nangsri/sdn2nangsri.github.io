@@ -1,0 +1,49 @@
+# =============================================
+# PROFIL SEKOLAH — halaman profil.html
+# Nilai panjang boleh berlanjut ke baris baru,
+# asalkan baris lanjutan diberi indentasi (spasi).
+# Daftar ditulis per baris diawali "- ".
+# =============================================
+sambutan_judul: Sambutan Kepala Sekolah
+sambutan_nama: KIRITO, S.Pd.
+sambutan: Assalamualaikum warahmatullahi wabarakatuh. Selamat datang di website resmi
+  SD Negeri 2 Nangsri. Website ini kami hadirkan sebagai sarana informasi dan
+  komunikasi antara sekolah, orang tua, serta masyarakat. Melalui website ini kami
+  berharap dapat menyampaikan informasi kegiatan, prestasi, dan program sekolah
+  secara terbuka. Terima kasih atas kunjungan dan dukungan Anda terhadap kemajuan
+  pendidikan di SD Negeri 2 Nangsri.
+
+sejarah: SD Negeri 2 Nangsri berdiri sejak tahun 1968 dan berlokasi di Dukuh Brajan,
+  Desa Nangsri, Kecamatan Manisrenggo, Kabupaten Klaten, Jawa Tengah. Selama lebih
+  dari setengah abad, sekolah ini telah menjadi bagian penting dalam mencerdaskan
+  anak-anak di Desa Nangsri dan sekitarnya. Pada tahun 2018 sekolah memperoleh
+  akreditasi A dari Badan Akreditasi Nasional Sekolah/Madrasah, bukti komitmen
+  sekolah dalam menjaga mutu pendidikan.
+
+visi: Terwujudnya peserta didik yang beriman, cerdas, terampil, mandiri, dan
+  berbudi pekerti luhur.
+
+misi:
+  - Menanamkan keimanan dan ketakwaan melalui pengamalan ajaran agama.
+  - Melaksanakan pembelajaran aktif, inovatif, kreatif, efektif, dan menyenangkan.
+  - Mengembangkan bakat, minat, dan potensi siswa melalui kegiatan ekstrakurikuler.
+  - Membiasakan perilaku hidup bersih, sehat, disiplin, dan santun.
+  - Menjalin kerja sama yang harmonis antara sekolah, orang tua, dan masyarakat.
+
+tujuan:
+  - Meningkatkan kualitas iman, ilmu, dan amal seluruh warga sekolah.
+  - Meraih prestasi akademik dan non-akademik di tingkat kecamatan dan kabupaten.
+  - Membekali siswa dengan kecakapan literasi, numerasi, dan karakter Pancasila.
+  - Menciptakan lingkungan belajar yang aman, nyaman, dan menyenangkan.
+
+fasilitas:
+  - Ruang kelas untuk 6 rombongan belajar
+  - Perpustakaan sekolah
+  - Ruang guru dan kepala sekolah
+  - Halaman upacara dan lapangan olahraga
+  - Mushola / tempat ibadah
+  - Toilet siswa dan guru
+  - Akses internet (Smartfren) dan listrik PLN
+  - UKS (Usaha Kesehatan Sekolah)
+
+kurikulum: Kurikulum Merdeka

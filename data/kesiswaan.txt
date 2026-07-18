@@ -1,0 +1,93 @@
+# =============================================
+# KESISWAAN — halaman kesiswaan.html
+# Setiap blok punya "tipe":
+#   kelas      -> tabel jumlah siswa per kelas
+#   prestasi   -> daftar prestasi siswa
+#   pembiasaan -> program pembiasaan harian
+#   tatatertib -> butir tata tertib siswa
+# Angka siswa di bawah masih CONTOH — sesuaikan.
+# =============================================
+tipe: kelas
+nama: Kelas 1
+laki: 11
+perempuan: 9
+wali: [Nama Guru], S.Pd.SD
+---
+tipe: kelas
+nama: Kelas 2
+laki: 10
+perempuan: 12
+wali: [Nama Guru], S.Pd.SD
+---
+tipe: kelas
+nama: Kelas 3
+laki: 12
+perempuan: 8
+wali: [Nama Guru], S.Pd.SD
+---
+tipe: kelas
+nama: Kelas 4
+laki: 9
+perempuan: 11
+wali: [Nama Guru], S.Pd.SD
+---
+tipe: kelas
+nama: Kelas 5
+laki: 13
+perempuan: 10
+wali: [Nama Guru], S.Pd.SD
+---
+tipe: kelas
+nama: Kelas 6
+laki: 10
+perempuan: 11
+wali: [Nama Guru], S.Pd.SD
+---
+tipe: prestasi
+nama: Juara 1 Lomba MAPSI Tingkat Kecamatan Manisrenggo
+tahun: 2025
+peraih: [Nama Siswa] — Kelas 5
+---
+tipe: prestasi
+nama: Juara 2 Lomba Cerdas Cermat Tingkat Kecamatan
+tahun: 2025
+peraih: Tim CC SDN 2 Nangsri
+---
+tipe: prestasi
+nama: Juara 3 O2SN Cabang Atletik Tingkat Kecamatan
+tahun: 2024
+peraih: [Nama Siswa] — Kelas 6
+---
+tipe: pembiasaan
+nama: Senyum, Salam, Sapa (3S)
+deskripsi: Menyambut siswa di gerbang setiap pagi dengan budaya 3S.
+---
+tipe: pembiasaan
+nama: Literasi Pagi
+deskripsi: Membaca buku non-pelajaran 15 menit sebelum pembelajaran dimulai.
+---
+tipe: pembiasaan
+nama: Jumat Sehat & Bersih
+deskripsi: Senam bersama dan kerja bakti membersihkan lingkungan sekolah setiap Jumat.
+---
+tipe: pembiasaan
+nama: Sholat Dhuha & Dzuhur Berjamaah
+deskripsi: Pembiasaan ibadah untuk menanamkan karakter religius.
+---
+tipe: tatatertib
+isi: Siswa hadir di sekolah paling lambat pukul 07.00 WIB.
+---
+tipe: tatatertib
+isi: Memakai seragam sesuai ketentuan hari yang berlaku.
+---
+tipe: tatatertib
+isi: Mengikuti upacara bendera setiap hari Senin dengan tertib.
+---
+tipe: tatatertib
+isi: Menjaga kebersihan kelas dan lingkungan sekolah.
+---
+tipe: tatatertib
+isi: Meminta izin kepada guru apabila berhalangan hadir atau meninggalkan kelas.
+---
+tipe: tatatertib
+isi: Bersikap sopan dan santun kepada guru, karyawan, dan sesama teman.

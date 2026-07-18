@@ -1,0 +1,62 @@
+# =============================================
+# GURU DAN KARYAWAN — halaman guru.html
+# Satu orang = satu blok, dipisah baris "---".
+# foto: nama file di assets/img/guru/ , isi "-" jika
+# belum ada (akan tampil avatar inisial otomatis).
+# Catatan: nama di bawah ini masih CONTOH — ganti
+# dengan data guru yang sebenarnya.
+# =============================================
+nama: [Nama Kepala Sekolah], S.Pd.
+jabatan: Kepala Sekolah
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.SD
+jabatan: Guru Kelas 1
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.SD
+jabatan: Guru Kelas 2
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.SD
+jabatan: Guru Kelas 3
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.SD
+jabatan: Guru Kelas 4
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.SD
+jabatan: Guru Kelas 5
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.SD
+jabatan: Guru Kelas 6
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.I
+jabatan: Guru Pendidikan Agama Islam
+nip: -
+foto: -
+---
+nama: [Nama Guru], S.Pd.
+jabatan: Guru PJOK
+nip: -
+foto: -
+---
+nama: [Nama Operator]
+jabatan: Operator Sekolah / Tenaga Administrasi
+nip: -
+foto: -
+---
+nama: [Nama Penjaga]
+jabatan: Penjaga Sekolah
+nip: -
+foto: -

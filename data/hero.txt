@@ -1,0 +1,15 @@
+# =============================================
+# HERO / SLIDER BERANDA — gambar latar berganti
+# otomatis di bagian atas halaman index.html.
+# foto: nama file di assets/img/hero/
+# keterangan: teks alternatif (aksesibilitas)
+# Urutan slide = urutan blok di file ini.
+# =============================================
+foto: hero-gedung.svg
+keterangan: Gedung SD Negeri 2 Nangsri
+---
+foto: hero-upacara.svg
+keterangan: Upacara bendera hari Senin
+---
+foto: gambar-pepeng.jpg
+keterangan: Suasana pembelajaran di kelas

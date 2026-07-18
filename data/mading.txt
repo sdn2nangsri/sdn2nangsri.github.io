@@ -1,0 +1,66 @@
+# =============================================
+# MADING SEKOLAH — halaman mading.html
+# jenis: puisi | cerpen | pantun | gambar | info
+# Untuk jenis "gambar", isi kolom foto dengan nama
+# file di assets/img/mading/
+# Isi multi-baris: beri indentasi pada baris lanjutan.
+# =============================================
+judul: Sekolahku Tercinta
+jenis: puisi
+nama: [Nama Siswa]
+kelas: Kelas 5
+tanggal: 2026-07-15
+isi: Pagi cerah kulangkahkan kaki
+  Menuju sekolah penuh arti
+  Guru menyambut dengan senyuman
+  Ilmu kudapat jadi bekal masa depan
+
+  Sekolahku SD Nangsri Dua
+  Tempatku belajar dan bermain bersama
+  Kan kujaga namamu selalu
+  Hingga cita-citaku menjadi nyata
+---
+judul: Ayo Rajin Membaca!
+jenis: info
+nama: Tim Perpustakaan
+kelas: Pojok Literasi
+tanggal: 2026-07-14
+isi: Tahukah kamu? Membaca 15 menit setiap hari dapat menambah ribuan kosakata
+  baru dalam setahun. Yuk, manfaatkan pojok baca di kelasmu dan kunjungi
+  perpustakaan sekolah setiap istirahat!
+---
+judul: Pemandangan Desaku
+jenis: gambar
+nama: [Nama Siswa]
+kelas: Kelas 4
+tanggal: 2026-07-13
+foto: pemandangan.svg
+isi: Gambar pemandangan sawah dan Gunung Merapi dilihat dari Desa Nangsri.
+---
+judul: Pantun Semangat Belajar
+jenis: pantun
+nama: [Nama Siswa]
+kelas: Kelas 6
+tanggal: 2026-07-10
+isi: Jalan-jalan ke Kota Klaten
+  Jangan lupa membeli srabi
+  Kalau ingin jadi anak beriman
+  Rajin belajar dan mengaji
+
+  Ke pasar membeli ketela
+  Ketela dimakan si burung nuri
+  Rajinlah belajar selagi muda
+  Agar berguna di kemudian hari
+---
+judul: Cita-citaku Menjadi Guru
+jenis: cerpen
+nama: [Nama Siswa]
+kelas: Kelas 6
+tanggal: 2026-07-08
+isi: Setiap pagi aku memperhatikan Bu Guru mengajar di depan kelas. Suaranya lembut
+  namun jelas, membuat pelajaran yang sulit terasa mudah. Sejak saat itu aku
+  bercita-cita menjadi guru.
+
+  Kata Ayah, menjadi guru adalah pekerjaan yang mulia karena ilmunya terus mengalir.
+  Aku pun berjanji akan belajar dengan rajin agar kelak bisa kembali ke desaku dan
+  mengajar anak-anak di sini, seperti Bu Guru mengajariku sekarang.
