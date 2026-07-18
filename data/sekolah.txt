@@ -20,3 +20,7 @@ waktu_belajar: Pagi, 6 hari sekolah
 lintang: -7.708542
 bujur: 110.515157
 tagline: Beriman, Cerdas, Terampil, dan Berbudi Pekerti Luhur
+
+# Google Analytics — isi dengan Measurement ID dari analytics.google.com
+# (format G-XXXXXXXXXX). Kosongkan untuk menonaktifkan pelacakan.
+google_analytics:G-8RZ2X0TX9K

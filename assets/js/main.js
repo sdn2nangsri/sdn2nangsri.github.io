@@ -55,9 +55,26 @@ function currentPage() {
   return file === 'artikel.html' ? 'berita.html' : file;
 }
 
+/* Muat Google Analytics (gtag.js) bila "google_analytics" diisi di sekolah.txt. */
+function initAnalytics(s) {
+  const id = (s.google_analytics || '').trim();
+  if (!/^G-[A-Z0-9]+$/i.test(id)) return;
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+  document.head.appendChild(script);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  gtag('js', new Date());
+  gtag('config', id);
+}
+
 async function initLayout() {
   const s = await Site.load();
   const active = currentPage();
+  initAnalytics(s);
 
   const headerEl = document.getElementById('site-header');
   if (headerEl) {
