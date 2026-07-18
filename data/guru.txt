@@ -41,18 +41,8 @@ jabatan: Guru Kelas 6
 nip: -
 foto: -
 ---
-nama: [Nama Guru], S.Pd.I
-jabatan: Guru Pendidikan Agama Islam
-nip: -
-foto: -
----
 nama: [Nama Guru], S.Pd.
 jabatan: Guru PJOK
-nip: -
-foto: -
----
-nama: [Nama Operator]
-jabatan: Operator Sekolah / Tenaga Administrasi
 nip: -
 foto: -
 ---
