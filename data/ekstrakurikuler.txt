@@ -9,13 +9,6 @@ jadwal: Jumat, 14.00–15.30 WIB
 deskripsi: Ekstrakurikuler wajib bagi kelas 3–6. Melatih kemandirian, kedisiplinan,
   kerja sama, dan cinta tanah air melalui kegiatan kepramukaan siaga dan penggalang.
 ---
-nama: Seni Tari
-ikon: 💃
-pembina: [Nama Pembina]
-jadwal: Rabu, 13.00–14.30 WIB
-deskripsi: Mengenalkan dan melestarikan tari tradisional Jawa serta melatih
-  kepercayaan diri siswa untuk tampil di berbagai acara sekolah dan kecamatan.
----
 nama: Baca Tulis Al-Qur'an (BTA)
 ikon: 📖
 pembina: [Nama Pembina]
