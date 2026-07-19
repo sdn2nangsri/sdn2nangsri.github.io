@@ -6,47 +6,47 @@
 # Catatan: nama di bawah ini masih CONTOH — ganti
 # dengan data guru yang sebenarnya.
 # =============================================
-nama: [Sumarno], S.Pd.
+nama: Sumarno, S.Pd.
 jabatan: Kepala Sekolah
 nip: 196712011988061001
 foto: -
 ---
-nama: [Wahyu Kuntoro Dewi], S.Pd.
+nama: Wahyu Kuntoro Dewi, S.Pd.
 jabatan: Guru Kelas 1
 nip: 197203192022212003
 foto: -
 ---
-nama: [Chandra Wahyuningsih], S.Pd.
+nama: Chandra Wahyuningsih, S.Pd.
 jabatan: Guru Kelas 2
 nip: 199506262025212057
 foto: -
 ---
-nama: [Ririn Tri Wahyuni], S.Pd.
+nama: Ririn Tri Wahyuni, S.Pd.
 jabatan: Guru Kelas 3
 nip: 198711282025212027
 foto: -
 ---
-nama: [Joko Samiyono], S.Pd.
+nama: Joko Samiyono, S.Pd.
 jabatan: Guru Kelas 4
 nip: 199005112023211007
 foto: -
 ---
-nama: [Taufik Fatoni], S.Pd.
+nama: Taufik Fatoni, S.Pd.
 jabatan: Guru Kelas 5
 nip: 199006242023211006
 foto: -
 ---
-nama: [Ida Agustina], S.Pd.
+nama: Ida Agustina, S.Pd.
 jabatan: Guru Kelas 6
 nip: 197803072014102003
 foto: -
 ---
-nama: [Edwin Afif Musyaffa], S.Pd.
+nama: Edwin Afif Musyaffa, S.Pd.
 jabatan: Guru PJOK
 nip: 199907152024211006
 foto: -
 ---
-nama: [Tri Marsono]
+nama: Tri Marsono
 jabatan: Penjaga Sekolah
 nip: 198405232025211074
 foto: -

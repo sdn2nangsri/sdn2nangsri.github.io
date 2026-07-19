@@ -11,37 +11,37 @@ tipe: kelas
 nama: Kelas 1
 laki: 11
 perempuan: 14
-wali: [Wahyu Kuntoro Dewi], S.Pd.
+wali: Wahyu Kuntoro Dewi, S.Pd.
 ---
 tipe: kelas
 nama: Kelas 2
 laki: 15
 perempuan: 11
-wali: [Chandra Wahyuningsih], S.Pd.
+wali: Chandra Wahyuningsih, S.Pd.
 ---
 tipe: kelas
 nama: Kelas 3
 laki: 14
 perempuan: 14
-wali: [Ririn Tri Wahyuni], S.Pd.
+wali: Ririn Tri Wahyuni, S.Pd.
 ---
 tipe: kelas
 nama: Kelas 4
 laki: 9
 perempuan: 15
-wali: [Joko Samiyono, S.Pd.
+wali: Joko Samiyono, S.Pd.
 ---
 tipe: kelas
 nama: Kelas 5
 laki: 12
 perempuan: 16
-wali: [Taufik Fatoni], S.Pd.
+wali: Taufik Fatoni, S.Pd.
 ---
 tipe: kelas
 nama: Kelas 6
 laki: 15
 perempuan: 16
-wali: [Ida Agustina], S.Pd.
+wali: Ida Agustina, S.Pd.
 ---
 tipe: prestasi
 nama: Juara 1 Lomba MAPSI Tingkat Kecamatan Manisrenggo
