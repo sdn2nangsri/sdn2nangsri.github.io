@@ -125,7 +125,7 @@ async function initLayout() {
       <header class="site-header">
         <div class="container header-inner">
           <a class="brand" href="index.html">
-            <img src="assets/img/Logo.png" alt="Logo ${esc(s.nama)}" width="44" height="44">
+            <img src="assets/img/Logo.png" alt="Logo ${esc(s.nama)}" width="74" height="74">
             <span class="brand-text">
               <strong>${esc(s.nama)}</strong>
               <small>${esc(s.kecamatan || '')}${s.kabupaten ? ', ' + esc(s.kabupaten) : ''}</small>
