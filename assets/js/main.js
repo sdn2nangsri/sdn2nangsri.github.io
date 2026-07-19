@@ -73,7 +73,7 @@ function initJsonLd(s) {
     name: s.nama,
     identifier: s.npsn ? 'NPSN ' + s.npsn : undefined,
     url: base,
-    logo: base + 'assets/img/logo.png',
+    Logo: base + 'assets/img/Logo.png',
     email: s.email && s.email !== '-' ? s.email : undefined,
     telephone: s.telepon && s.telepon !== '-' ? s.telepon : undefined,
     foundingDate: s.tahun_berdiri || undefined,
@@ -125,7 +125,7 @@ async function initLayout() {
       <header class="site-header">
         <div class="container header-inner">
           <a class="brand" href="index.html">
-            <img src="assets/img/logo.png" alt="Logo ${esc(s.nama)}" width="44" height="44">
+            <img src="assets/img/Logo.png" alt="Logo ${esc(s.nama)}" width="44" height="44">
             <span class="brand-text">
               <strong>${esc(s.nama)}</strong>
               <small>${esc(s.kecamatan || '')}${s.kabupaten ? ', ' + esc(s.kabupaten) : ''}</small>
