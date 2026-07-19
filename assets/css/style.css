@@ -60,7 +60,7 @@ main { min-height: 60vh; }
   flex-wrap: wrap;
 }
 .brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: #fff; }
-.brand img { border-radius: 50%; padding: 3px; }
+.brand img { border-radius: 50%; background: #fff; padding: 3px; }
 .brand-text { display: flex; flex-direction: column; }
 .brand-text strong { font-size: 1rem; }
 .brand-text small { opacity: 0.85; font-size: 0.75rem; }
