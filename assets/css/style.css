@@ -122,7 +122,7 @@ main { min-height: 60vh; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15, 61, 36, 0.82), rgba(22, 101, 52, 0.62));
+  background: linear-gradient(135deg, rgba(15, 61, 36, 0.5), rgba(22, 101, 52, 0.32));
 }
 
 .hero-arrow {
