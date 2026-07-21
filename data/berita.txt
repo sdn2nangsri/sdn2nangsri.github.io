@@ -23,7 +23,7 @@ ringkasan: Keluarga besar SD Negeri 2 Nangsri menggelar pentas seni sekaligus
   melepas siswa-siswi kelas 6 dengan penuh haru dan kebanggaan.
 ---
 judul: SDN 2 Nangsri Gelar Upacara HUT ke-80 RI, Wujudkan Semangat Nasionalisme dan Kebersamaan
-slug: upacara-hut-ri-2025.txt
+slug: upacara-hut-ri-2025
 tanggal: 2025-08-18
 penulis: Admin Sekolah
 foto: HUT-2025.jpg
