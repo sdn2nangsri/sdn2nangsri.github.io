@@ -10,7 +10,7 @@ judul: Pembukaan Tahun Ajaran Baru 2026/2027
 slug: tahun-ajaran-baru-2026
 tanggal: 2026-07-14
 penulis: Admin Sekolah
-foto: tahun-ajaran.svg
+foto: tahun-ajaran-baru.jpeg
 ringkasan: SD Negeri 2 Nangsri resmi membuka tahun ajaran 2026/2027 dengan kegiatan
   Masa Pengenalan Lingkungan Sekolah (MPLS) bagi siswa baru kelas 1.
 ---
