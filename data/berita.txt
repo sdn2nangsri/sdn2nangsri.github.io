@@ -14,6 +14,14 @@ foto: tahun-ajaran.svg
 ringkasan: SD Negeri 2 Nangsri resmi membuka tahun ajaran 2026/2027 dengan kegiatan
   Masa Pengenalan Lingkungan Sekolah (MPLS) bagi siswa baru kelas 1.
 ---
+judul: Gebyar Pentas Seni dan Perpisahan Kelas 6
+slug: pentas-seni-2025
+tanggal: 2026-06-13
+penulis: Admin Sekolah
+foto: perpisahan.jpg
+ringkasan: Keluarga besar SD Negeri 2 Nangsri menggelar pentas seni sekaligus
+  melepas siswa-siswi kelas 6 dengan penuh haru dan kebanggaan.
+---
 judul: Siswa SDN 2 Nangsri Raih Juara Lomba MAPSI Kecamatan
 slug: juara-mapsi-2025
 tanggal: 2025-11-10
@@ -21,11 +29,4 @@ penulis: Admin Sekolah
 foto: juara.svg
 ringkasan: Alhamdulillah, siswa kelas 5 berhasil meraih Juara 1 Lomba MAPSI tingkat
   Kecamatan Manisrenggo dan akan mewakili kecamatan ke tingkat kabupaten.
----
-judul: Gebyar Pentas Seni dan Perpisahan Kelas 6
-slug: pentas-seni-2025
-tanggal: 2025-06-21
-penulis: Admin Sekolah
-foto: pentas.svg
-ringkasan: Keluarga besar SD Negeri 2 Nangsri menggelar pentas seni sekaligus
-  melepas siswa-siswi kelas 6 dengan penuh haru dan kebanggaan.
+
