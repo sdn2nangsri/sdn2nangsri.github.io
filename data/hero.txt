@@ -5,7 +5,7 @@
 # keterangan: teks alternatif (aksesibilitas)
 # Urutan slide = urutan blok di file ini.
 # =============================================
-foto: hero-gedung.svg
+foto: Drone-2-nangsri.png
 keterangan: Gedung SD Negeri 2 Nangsri
 ---
 foto: hero-upacara.svg
