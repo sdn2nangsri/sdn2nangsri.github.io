@@ -9,27 +9,27 @@
 nama: Sumarno, S.Pd.
 jabatan: Kepala Sekolah
 nip: 196712011988061001
-foto: -
+foto: sumarno.jpg
 ---
 nama: Wahyu Kuntoro Dewi, S.Pd.
 jabatan: Guru Kelas 1
 nip: 197203192022212003
-foto: -
+foto: wahyu-kuntoro-dewi.jpg
 ---
 nama: Chandra Wahyuningsih, S.Pd.
 jabatan: Guru Kelas 2
 nip: 199506262025212057
-foto: -
+foto: chandra-wahyuningsih.jpg
 ---
 nama: Ririn Tri Wahyuni, S.Pd.
 jabatan: Guru Kelas 3
 nip: 198711282025212027
-foto: -
+foto: ririn-tri-wahyuni.jpg
 ---
 nama: Joko Samiyono, S.Pd.
 jabatan: Guru Kelas 4
 nip: 199005112023211007
-foto: -
+foto: joko-samiyono.jpg
 ---
 nama: Taufik Fatoni, S.Pd.
 jabatan: Guru Kelas 5
@@ -39,7 +39,7 @@ foto: Fatoni.jpg
 nama: Ida Agustina, S.Pd.
 jabatan: Guru Kelas 6
 nip: 197803072014102003
-foto: -
+foto: ida-agustina.jpg
 ---
 nama: Edwin Afif Musyaffa, S.Pd.
 jabatan: Guru PJOK
@@ -49,4 +49,4 @@ foto: edwin-afif-musyaffa.jpg
 nama: Tri Marsono
 jabatan: Penjaga Sekolah
 nip: 198405232025211074
-foto: -
+foto: tri-marsono.jpg
