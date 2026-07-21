@@ -11,10 +11,23 @@ deskripsi: Ekstrakurikuler wajib bagi kelas 3–6. Melatih kemandirian, kedisipl
   kerja sama, dan cinta tanah air melalui kegiatan kepramukaan siaga dan penggalang.
 ---
 nama: Drumband
-ikon: 📖
+ikon: 🥁
 foto: drumband.jpeg
 pembina: [Joko Samiyono, S.Pd.]
 jadwal: Selasa & Kamis, 12.00–14.00 WIB
-deskripsi: Membimbing siswa agar lancar membaca dan menulis Al-Qur'an serta
-  memperdalam pendidikan karakter religius.
+deskripsi: kstrakurikuler drumband "Bringin Swara" melatih siswa bermain alat musik
+  perkusi dan tiup secara berkelompok, memupuk kekompakan, kedisiplinan, serta rasa
+  percaya diri tampil di depan umum. Bringin Swara aktif tampil dalam acara sekolah
+  dan telah meraih juara harapan I Lomba Drumband Piala Bupati Klaten 2025 kategori
+  sekolah dasar tingkat pemula.
+---
+nama: Angklung
+ikon: 🎋
+foto: angklung.jpg
+pembina: [Edwin AFif Musyaffa, S.Pd.]
+jadwal: Rabu, 12.00–13.00 WIB
+deskripsi: Ekstrakurikuler angklung mengenalkan siswa pada alat musik tradisional
+  bambu khas Jawa Barat ini melalui latihan bermain lagu secara berkelompok. Selain
+  melatih kepekaan nada dan kekompakan tim, kegiatan ini menumbuhkan kecintaan siswa
+  terhadap seni budaya dan warisan tradisional Indonesia.
 ---
