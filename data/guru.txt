@@ -34,7 +34,7 @@ foto: -
 nama: Taufik Fatoni, S.Pd.
 jabatan: Guru Kelas 5
 nip: 199006242023211006
-foto: -
+foto: Fatoni
 ---
 nama: Ida Agustina, S.Pd.
 jabatan: Guru Kelas 6
