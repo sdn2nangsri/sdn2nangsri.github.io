@@ -132,10 +132,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     .map(
       (e, i) => `
       <div class="card" data-reveal data-reveal-delay="${i * 90}"><div class="card-body center">
-  ${e.foto ? `<img src="assets/img/ekskul/${esc(e.foto)}" alt="${esc(e.nama)}" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:12px">` : `<div style="font-size:2.2rem">${e.ikon || '⭐'}</div>`}
-  <h3>${esc(e.nama)}</h3>
-  <span class="meta">${esc(e.jadwal)}</span>
-</div></div>
+        <div style="font-size:2.2rem">${e.ikon || '⭐'}</div>
+        <h3>${esc(e.nama)}</h3>
+        <span class="meta">${esc(e.jadwal)}</span>
+      </div></div>`
     )
     .join('');
 
