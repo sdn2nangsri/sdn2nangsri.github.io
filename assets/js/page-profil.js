@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     ${paras(p.sambutan)}
     <p><strong>${esc(p.sambutan_nama)}</strong><br><span class="muted">Kepala SD Negeri 2 Nangsri</span></p>
   </div>
-  ${p.sambutan_foto ? `<img src="assets/img/${esc(p.sambutan_foto)}" alt="${esc(p.sambutan_nama)}" style="width:280px;object-fit:cover;border-radius:14px;flex-shrink:0;margin-left:auto">` : ''}
+  ${p.sambutan_foto ? `<img src="assets/img/${esc(p.sambutan_foto)}" alt="${esc(p.sambutan_nama)}" style="width:180px;object-fit:cover;border-radius:14px;flex-shrink:0;margin-left:auto">` : ''}
 </div></div>
     </section>
 
