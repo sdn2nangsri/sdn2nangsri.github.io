@@ -6,7 +6,7 @@ nama: Pramuka
 ikon: ⚜️
 foto: pramuka.jpeg
 pembina: [Taufik Fatoni, S.Pd.]
-jadwal: Jumat, 14.00–15.30 WIB
+jadwal: Sabtu, 11.00–12.30 WIB
 deskripsi: Ekstrakurikuler wajib bagi kelas 3–6. Melatih kemandirian, kedisiplinan,
   kerja sama, dan cinta tanah air melalui kegiatan kepramukaan siaga dan penggalang.
 ---
@@ -14,7 +14,7 @@ nama: Drumband
 ikon: 📖
 foto: drumband.jpeg
 pembina: [Joko Samiyono, S.Pd.]
-jadwal: Selasa & Kamis, 13.00–14.00 WIB
+jadwal: Selasa & Kamis, 12.00–14.00 WIB
 deskripsi: Membimbing siswa agar lancar membaca dan menulis Al-Qur'an serta
   memperdalam pendidikan karakter religius.
 ---
