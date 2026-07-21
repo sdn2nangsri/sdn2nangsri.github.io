@@ -9,8 +9,9 @@ jadwal: Jumat, 14.00–15.30 WIB
 deskripsi: Ekstrakurikuler wajib bagi kelas 3–6. Melatih kemandirian, kedisiplinan,
   kerja sama, dan cinta tanah air melalui kegiatan kepramukaan siaga dan penggalang.
 ---
-nama: Baca Tulis Al-Qur'an (BTA)
+nama: Drumband
 ikon: 📖
+foto: drumband.jpeg
 pembina: [Nama Pembina]
 jadwal: Selasa & Kamis, 13.00–14.00 WIB
 deskripsi: Membimbing siswa agar lancar membaca dan menulis Al-Qur'an serta
