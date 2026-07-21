@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   ]);
 
   const paras = (v) =>
-    String(v || '')
-      .split('\n')
-      .filter(Boolean)
-      .map((x) => `<p>${esc(x)}</p>`)
-      .join('');
+  String(v || '')
+    .split(/\n\s*\n/)
+    .filter(Boolean)
+    .map((x) => `<p>${esc(x.replace(/\n/g, ' '))}</p>`)
+    .join('');
   const checks = (v) => `<ul class="check-list">${parseList(v).map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`;
 
   document.getElementById('konten').innerHTML = `
