@@ -7,12 +7,13 @@
 sambutan_judul: Sambutan Kepala Sekolah
 sambutan_foto: guru/sambutan.jpeg
 sambutan_nama: SUMARNO, S.Pd.
-sambutan: Assalamualaikum warahmatullahi wabarakatuh. Selamat datang di website resmi
+sambutan: Assalamualaikum warahmatullahi wabarakatuh.
+Selamat datang di website resmi
   SD Negeri 2 Nangsri. Website ini kami hadirkan sebagai sarana informasi dan
-  komunikasi antara sekolah, orang tua, serta masyarakat. Melalui website ini kami
-  berharap dapat menyampaikan informasi kegiatan, prestasi, dan program sekolah
-  secara terbuka. Terima kasih atas kunjungan dan dukungan Anda terhadap kemajuan
-  pendidikan di SD Negeri 2 Nangsri.
+komunikasi antara sekolah, orang tua, serta masyarakat. Melalui website ini kami
+berharap dapat menyampaikan informasi kegiatan, prestasi, dan program sekolah
+secara terbuka. Terima kasih atas kunjungan dan dukungan Anda terhadap kemajuan
+pendidikan di SD Negeri 2 Nangsri.
 
 sejarah: SD Negeri 2 Nangsri berdiri sejak tahun 1968 dan berlokasi di Dukuh Brajan,
   Desa Nangsri, Kecamatan Manisrenggo, Kabupaten Klaten, Jawa Tengah. Selama lebih
