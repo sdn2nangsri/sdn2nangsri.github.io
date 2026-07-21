@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('konten').innerHTML = `
     <section class="block" data-reveal>
       <div class="card"><div class="card-body" style="display:flex;flex-direction:row;gap:1.5rem;flex-wrap:wrap;align-items:flex-start">
-  ${p.sambutan_foto ? `<img src="assets/img/${esc(p.sambutan_foto)}" alt="${esc(p.sambutan_nama)}" style="width:220px;height:220px;object-fit:cover;border-radius:14px;flex-shrink:0">` : ''}
   <div style="flex:1;min-width:280px">
     ${paras(p.sambutan)}
     <p><strong>${esc(p.sambutan_nama)}</strong><br><span class="muted">Kepala SD Negeri 2 Nangsri</span></p>
   </div>
+  ${p.sambutan_foto ? `<img src="assets/img/${esc(p.sambutan_foto)}" alt="${esc(p.sambutan_nama)}" style="width:220px;height:220px;object-fit:cover;border-radius:14px;flex-shrink:0">` : ''}
 </div></div>
     </section>
 
