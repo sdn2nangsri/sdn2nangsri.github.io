@@ -44,7 +44,7 @@ foto: -
 nama: Edwin Afif Musyaffa, S.Pd.
 jabatan: Guru PJOK
 nip: 199907152024211006
-foto: -
+foto: edwin-afif-musyaffa.jpg
 ---
 nama: Tri Marsono
 jabatan: Penjaga Sekolah
