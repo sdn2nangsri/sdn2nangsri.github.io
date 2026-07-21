@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   document.getElementById('konten').innerHTML = `
     <section class="block" data-reveal>
-      <div class="card"><div class="card-body" style="display:flex;flex-direction:row;gap:1.5rem;flex-wrap:wrap;align-items:flex-start">
-  <div style="flex:1;min-width:280px">
+      <div class="card"><div class="card-body" style="display:flex;flex-direction:row;gap:1.5rem;flex-wrap:wrap;align-items:flex-start;justify-content:center">
+  <div style="max-width:520px">
     ${paras(p.sambutan)}
     <p><strong>${esc(p.sambutan_nama)}</strong><br><span class="muted">Kepala SD Negeri 2 Nangsri</span></p>
   </div>
