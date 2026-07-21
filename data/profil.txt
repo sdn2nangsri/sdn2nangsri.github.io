@@ -5,6 +5,7 @@
 # Daftar ditulis per baris diawali "- ".
 # =============================================
 sambutan_judul: Sambutan Kepala Sekolah
+sambutan_foto: guru/sambutan.jpeg
 sambutan_nama: SUMARNO, S.Pd.
 sambutan: Assalamualaikum warahmatullahi wabarakatuh. Selamat datang di website resmi
   SD Negeri 2 Nangsri. Website ini kami hadirkan sebagai sarana informasi dan
