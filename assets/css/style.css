@@ -187,7 +187,7 @@ section.block { margin-block: 2.5rem; }
   flex-direction: column;
 }
 .card-body { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
-.card h3 { margin: 0; font-size: 1.05rem; }
+.card h3 { margin: 0; font-size: 0.95rem; }
 .card .meta { color: var(--muted); font-size: 0.85rem; }
 .card .thumb { aspect-ratio: 16/10; object-fit: cover; width: 100%; }
 
