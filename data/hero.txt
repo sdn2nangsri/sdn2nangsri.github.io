@@ -8,7 +8,7 @@
 foto: Drone-2-nangsri.png
 keterangan: Gedung SD Negeri 2 Nangsri
 ---
-foto: hero-upacara.svg
+foto: foto-bareng.jpeg
 keterangan: Upacara bendera hari Senin
 ---
 foto: kepala-sekolah.jpg
