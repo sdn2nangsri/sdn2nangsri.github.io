@@ -6,6 +6,13 @@
 # tanpa spasi — gunakan tanda "-").
 # foto: nama file di assets/img/berita/
 # =============================================
+judul: Peringatan Hari Anak Nasional, Siswa SDN 2 Nangsri Jadi Petugas Upacara Penuh
+slug: hari-anak-nasional-2026
+tanggal: 2026-07-23
+penulis: Admin Sekolah
+foto: hari-anak.jpg
+ringkasan: Dalam rangka Hari Anak Nasional, seluruh petugas upacara di SDN 2 Nangsri diambil alih oleh siswa, termasuk peran pembina upacara yang biasanya dijabat guru.
+---
 judul: Pembukaan Tahun Ajaran Baru 2026/2027
 slug: tahun-ajaran-baru-2026
 tanggal: 2026-07-14
