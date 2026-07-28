@@ -6,6 +6,13 @@
 # tanpa spasi — gunakan tanda "-").
 # foto: nama file di assets/img/berita/
 # =============================================
+judul: SDN 2 Nangsri Gelar Upacara Peringatan Hari Jadi Klaten ke-222
+slug: hari-jadi-klaten-222
+tanggal: 2026-07-28
+penulis: Admin Sekolah
+foto: ultah-klaten.jpeg
+ringkasan: SDN 2 Nangsri menggelar upacara bendera dalam rangka memperingati Hari Jadi Kabupaten Klaten yang ke-222, sebagai wujud kecintaan terhadap daerah.
+---
 judul: Peringatan Hari Anak Nasional, Siswa SDN 2 Nangsri Jadi Petugas Upacara Penuh
 slug: hari-anak-nasional-2026
 tanggal: 2026-07-23
