@@ -1,0 +1,22 @@
+periode: 01 Apr 2026 - 30 Jun 2026
+nilai: 81,8
+jumlah_responden: 80
+foto: ikm-2026-q2.png
+rincian_kelas: Kelas I = 14 Orang
+  Kelas II = 22 Orang
+  Kelas III = 7 Orang
+  Kelas IV = 19 Orang
+  Kelas V = 12 Orang
+  Kelas VI = 6 Orang
+---
+periode: 01 Jan 2026 - 31 Mar 2026
+nilai: 80,5
+jumlah_responden: 83
+foto: ikm-2026-q1.png
+rincian_kelas: Kelas I = 15 Orang
+  Kelas II = 22 Orang
+  Kelas III = 8 Orang
+  Kelas IV = 19 Orang
+  Kelas V = 13 Orang
+  Kelas VI = 6 Orang
+---

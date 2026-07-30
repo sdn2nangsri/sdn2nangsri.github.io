@@ -22,6 +22,7 @@ const NAV = [
   ['ekstrakurikuler.html', 'Ekstrakurikuler'],
   ['kalender.html', 'Kalender'],
   ['mading.html', 'Mading'],
+  ['transparansi.html', 'Transparansi'],
   ['spmb.html', 'SPMB'],
 ];
 
