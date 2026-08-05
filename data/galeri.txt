@@ -15,7 +15,7 @@ tanggal: 2026-07-10
 ---
 judul: Pembelajaran di Kelas
 album: Pembelajaran
-foto: kelas.svg
+foto: KBM.png
 tanggal: 2026-07-08
 ---
 judul: Kegiatan Literasi di Perpustakaan
