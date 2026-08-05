@@ -5,7 +5,7 @@
 # =============================================
 judul: Upacara Bendera Hari Senin
 album: Kegiatan Rutin
-foto: upacara.svg
+foto: upacara-dewi.jpeg
 tanggal: 2026-07-13
 ---
 judul: Senam Pagi Bersama
