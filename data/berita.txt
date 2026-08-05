@@ -6,6 +6,13 @@
 # tanpa spasi — gunakan tanda "-").
 # foto: nama file di assets/img/berita/
 # =============================================
+judul: SDN 2 Nangsri Laksanakan Bulan Imunisasi Anak Sekolah (BIAS)
+slug: hari-jadi-klaten-222
+tanggal: 2026-08-04
+penulis: Admin Sekolah
+foto: bias.png
+ringkasan: SDN 2 Nangsri menggelar upacara bendera dalam rangka memperingati Hari Jadi Kabupaten Klaten yang ke-222, sebagai wujud kecintaan terhadap daerah.
+---
 judul: SDN 2 Nangsri Gelar Upacara Peringatan Hari Jadi Klaten ke-222
 slug: hari-jadi-klaten-222
 tanggal: 2026-07-28
