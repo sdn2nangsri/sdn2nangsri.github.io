@@ -7,7 +7,7 @@
 # foto: nama file di assets/img/berita/
 # =============================================
 judul: SDN 2 Nangsri Laksanakan Bulan Imunisasi Anak Sekolah (BIAS)
-slug: hari-jadi-klaten-222
+slug: bias-2026
 tanggal: 2026-08-04
 penulis: Admin Sekolah
 foto: bias.png
