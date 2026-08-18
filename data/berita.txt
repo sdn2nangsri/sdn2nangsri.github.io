@@ -50,3 +50,10 @@ penulis: Admin Sekolah
 foto: HUT-2025.jpg
 ringkasan: Seluruh keluarga besar sekolah, komite, paguyuban, wali murid, perangkat desa hingga masyarakat sekitar larut dalam khidmatnya upacara peringatan Hari Ulang Tahun Republik Indonesia. Rangkaian acara diawali dengan penampilan "Bringin Swara" drumband SDN 2 Nangsri yang baru saja meraih juara harapan 1 dalam Lomba Drumband Piala Bupati Klaten Tahun 2025 tingkat sekolah dasar klasemen pemula.
 ---
+judul: Upacara HUT RI ke-81 di SDN 2 Nangsri Berlangsung Khidmat dan Meriah Bersama Masyarakat Desa
+slug: upacara-hut-ri-2026
+tanggal: 2026-08-17
+penulis: Admin Sekolah
+foto: upacara-hutri81.jpg
+ringkasan: Dalam rangka memperingati Hari Ulang Tahun ke-81 Republik Indonesia, SDN 2 Nangsri menggelar upacara bendera yang melibatkan seluruh elemen sekolah dan masyarakat Desa Nangsri.
+---
