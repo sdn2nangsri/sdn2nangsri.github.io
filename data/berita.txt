@@ -10,7 +10,7 @@ judul: Upacara HUT RI ke-81 di SDN 2 Nangsri Berlangsung Khidmat dan Meriah Bers
 slug: upacara-hut-ri-2026
 tanggal: 2026-08-17
 penulis: Admin Sekolah
-foto: upacara-hutri81.jpg
+foto: hutri81.jpg
 ringkasan: Dalam rangka memperingati Hari Ulang Tahun ke-81 Republik Indonesia, SDN 2 Nangsri menggelar upacara bendera yang melibatkan seluruh elemen sekolah dan masyarakat Desa Nangsri.
 ---
 judul: SDN 2 Nangsri Laksanakan Bulan Imunisasi Anak Sekolah (BIAS)
