@@ -59,7 +59,7 @@ ringkasan: Seluruh keluarga besar sekolah, komite, paguyuban, wali murid, perang
 ---
 judul: SDN 2 Nangsri Gemilang di FTBI Korwil Manisrenggo: Borong Juara Ndagel Ijen dan Sesorah
 slug: juara-lomba-ftbi-2026
-tanggal: 2026-09-16
+tanggal: 2025-09-16
 penulis: Admin Sekolah
 foto: FTBI.png
 ringkasan: NANGSRI – Prestasi membanggakan kembali diukir oleh siswa-siswi SDN 2 Nangsri. Dalam ajang Festival Tunas Bahasa Ibu (FTBI) tingkat Korwil Bidang Pendidikan Kecamatan Manisrenggo, kontingen SDN 2 Nangsri berhasil mendominasi dan membawa pulang gelar juara pada dua cabang lomba bergengsi, yaitu Ndagel Ijen dan Sesorah.Ajang tahunan ini diselenggarakan sebagai wadah untuk melestarikan serta mengenalkan bahasa dan budaya Jawa kepada generasi muda sejak dini. Persaingan berlangsung ketat dengan hadirnya peserta terbaik dari berbagai sekolah dasar di wilayah Kecamatan Manisrenggo.
@@ -70,9 +70,9 @@ Kepala SDN 2 Nangsri menyampaikan apresiasi setinggi-tingginya atas pencapaian i
 Selamat kepada para pemenang dan terima kasih kepada seluruh bapak/ibu guru serta orang tua siswa atas dukungan yang tiada henti. Semoga prestasi ini menjadi pemicu semangat bagi seluruh siswa SDN 2 Nangsri untuk terus berkarya dan berprestasi di jenjang berikutnya!
 SDN 2 Nangsri: Berkarakter, Berbudaya, dan Berprestasi!
 ---
-judul: SDN 2 Nangsri Gemilang di FTBI Korwil Manisrenggo: Borong Juara Ndagel Ijen dan Sesorah
+judul: SDN 2 Nangsri Kembali Ukir Prestasi: Aurel Widiyanti Putri Raih Juara 2 Hifzil Qur'an Putri Lomba MAPSI 2026
 slug: juara-lomba-mapsi-2026
-tanggal: 2026-08-29
+tanggal: 2025-08-29
 penulis: Admin Sekolah
 foto: mapsi.jpeg
 ringkasan: NANGSRI – Keluarga besar SDN 2 Nangsri kembali diselimuti rasa bangga dan syukur. Salah satu siswi terbaiknya, Aurel Widiyanti Putri, berhasil meraih prestasi gemilang dengan menyabet gelar Juara 2 Cabang Lomba Hifzil Qur'an Putri pada ajang Mata Pelajaran Agama Islam dan Seni Islami (MAPSI) Tahun 2026 tingkat Kecamatan Manisrenggo.
