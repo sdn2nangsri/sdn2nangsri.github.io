@@ -12,19 +12,37 @@ const Site = {
   },
 };
 
+/* Menu utama: [href, label] = tautan biasa, { label, items } = dropdown.
+   SPMB dirender terpisah sebagai tombol ajakan (NAV_CTA). */
 const NAV = [
   ['index.html', 'Beranda'],
-  ['profil.html', 'Profil'],
-  ['guru.html', 'Guru & Karyawan'],
-  ['kesiswaan.html', 'Kesiswaan'],
-  ['galeri.html', 'Galeri'],
-  ['berita.html', 'Berita'],
-  ['ekstrakurikuler.html', 'Ekstrakurikuler'],
-  ['kalender.html', 'Kalender'],
-  ['mading.html', 'Mading'],
-  ['transparansi.html', 'Transparansi'],
-  ['spmb.html', 'SPMB'],
+  {
+    label: 'Profil',
+    items: [
+      ['profil.html', 'Profil Sekolah'],
+      ['guru.html', 'Guru & Karyawan'],
+      ['transparansi.html', 'Transparansi'],
+    ],
+  },
+  {
+    label: 'Kesiswaan',
+    items: [
+      ['kesiswaan.html', 'Kesiswaan'],
+      ['ekstrakurikuler.html', 'Ekstrakurikuler'],
+      ['mading.html', 'Mading'],
+    ],
+  },
+  {
+    label: 'Informasi',
+    items: [
+      ['berita.html', 'Berita'],
+      ['kalender.html', 'Kalender'],
+      ['galeri.html', 'Galeri'],
+    ],
+  },
 ];
+const NAV_CTA = ['spmb.html', 'SPMB'];
+const NAV_LINKS = NAV.flatMap((n) => (Array.isArray(n) ? [n] : n.items)).concat([NAV_CTA]);
 
 function esc(s) {
   return String(s ?? '')
@@ -117,6 +135,15 @@ function initAnalytics(s) {
 async function initLayout() {
   const s = await Site.load();
   const active = currentPage();
+  const navLink = ([href, label]) =>
+    `<a href="${href}"${href === active ? ' class="active" aria-current="page"' : ''}>${label}</a>`;
+  const navGroup = ({ label, items }) => {
+    const current = items.some(([href]) => href === active);
+    return `<li class="nav-group">
+      <button type="button" class="nav-group-btn${current ? ' active' : ''}" aria-expanded="false">${label}</button>
+      <ul class="nav-sub">${items.map((i) => `<li>${navLink(i)}</li>`).join('')}</ul>
+    </li>`;
+  };
   initAnalytics(s);
   initJsonLd(s);
 
@@ -135,10 +162,8 @@ async function initLayout() {
           <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
           <nav class="site-nav" aria-label="Navigasi utama">
             <ul>
-              ${NAV.map(
-                ([href, label]) =>
-                  `<li><a href="${href}"${href === active ? ' class="active" aria-current="page"' : ''}>${label}</a></li>`
-              ).join('')}
+              ${NAV.map((n) => (Array.isArray(n) ? `<li>${navLink(n)}</li>` : navGroup(n))).join('')}
+              <li class="nav-cta">${navLink(NAV_CTA)}</li>
             </ul>
           </nav>
         </div>
@@ -146,9 +171,37 @@ async function initLayout() {
 
     const toggle = headerEl.querySelector('.nav-toggle');
     const nav = headerEl.querySelector('.site-nav');
-    toggle.addEventListener('click', () => {
-      const open = nav.classList.toggle('open');
+    const groups = [...headerEl.querySelectorAll('.nav-group')];
+    const setGroup = (g, open) => {
+      g.classList.toggle('open', open);
+      g.querySelector('.nav-group-btn').setAttribute('aria-expanded', String(open));
+    };
+    const setMenu = (open) => {
+      nav.classList.toggle('open', open);
       toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Tutup menu' : 'Buka menu');
+      toggle.textContent = open ? '✕' : '☰';
+    };
+    toggle.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+    groups.forEach((g) =>
+      g.querySelector('.nav-group-btn').addEventListener('click', () => {
+        const open = !g.classList.contains('open');
+        groups.forEach((o) => o !== g && setGroup(o, false));
+        setGroup(g, open);
+      })
+    );
+    document.addEventListener('click', (e) => {
+      if (headerEl.contains(e.target)) return;
+      groups.forEach((g) => setGroup(g, false));
+      setMenu(false);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      groups.forEach((g) => setGroup(g, false));
+      if (nav.classList.contains('open')) {
+        setMenu(false);
+        toggle.focus();
+      }
     });
   }
 
@@ -174,7 +227,7 @@ async function initLayout() {
           <div>
             <h3>Tautan Cepat</h3>
             <ul class="footer-links">
-              ${NAV.map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('')}
+              ${NAV_LINKS.map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('')}
             </ul>
           </div>
           <div>
