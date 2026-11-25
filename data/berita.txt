@@ -85,3 +85,10 @@ penulis: Admin Sekolah
 foto: lcc2.png
 ringkasan: MANISRENGGO – Prestasi membanggakan kembali ditorehkan oleh peserta didik SD Negeri 2 Nangsri. Tiga siswi terbaik sekolah tersebut sukses meraih gelar Juara 2 dalam ajang Lomba Cerdas Cermat (LCC) tingkat Koordinator Wilayah (Korwil) Bidang Pendidikan Kecamatan Manisrenggo yang diselenggarakan pada Rabu (18/11/2026).
 ---
+judul: Kado Indah Hari Guru Nasional, Tim Voli Pelajar Putra Manisrenggo Raih Juara 1 Piala Kadisbudporapar Klaten 2026
+slug: voli-manis-juara
+tanggal: 2026-11-25
+penulis: Admin Sekolah
+foto: voli.png
+ringkasan: Kebanggaan tersendiri turut dirasakan oleh keluarga besar SDN 2 Nangsri. Pasalnya, dua siswa terbaik mereka turut memperkuat skuad inti tim bola voli anak Kecamatan Manisrenggo dalam turnamen bergengsi tersebut. Kontribusi dan kekompakan kedua siswa SDN 2 Nangsri bersama rekan-rekan satu timnya menjadi salah satu kunci keberhasilan Manisrenggo melaju mulus hingga podium tertinggi.
+---
