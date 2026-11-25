@@ -78,3 +78,16 @@ penulis: Admin Sekolah
 foto: kasti.png
 ringkasan: MANISRENGGO – Dalam rangka memperingati Hari Olahraga Nasional (HAORNAS) 2026, kemeriahan dan semangat kebersamaan mewarnai Lapangan Kepurun, Kecamatan Manisrenggo, Klaten, pada Kamis (17/9/2026). Pada kesempatan tersebut, digelar perlombaan Permainan Tradisional Kasti yang diikuti oleh Bapak dan Ibu Guru dari berbagai satuan pendidikan.
 ---
+judul: Tiga Siswi Berprestasi SDN 2 Nangsri Raih Juara 2 Lomba Cerdas Cermat Tingkat Kecamatan Manisrenggo
+slug: lcc-nangsri-2026
+tanggal: 2026-11-18
+penulis: Admin Sekolah
+foto: lcc2.png
+ringkasan: MANISRENGGO – Prestasi membanggakan kembali ditorehkan oleh peserta didik SD Negeri 2 Nangsri. Tiga siswi terbaik sekolah tersebut sukses meraih gelar Juara 2 dalam ajang Lomba Cerdas Cermat (LCC) tingkat Koordinator Wilayah (Korwil) Bidang Pendidikan Kecamatan Manisrenggo yang diselenggarakan pada Rabu (18/11/2026).
+
+Ketiga siswi berprestasi yang mewakili SDN 2 Nangsri dalam kompetisi bergengsi tersebut adalah Hana, Zilenka, dan Putri. Ketiganya tampil solid dan penuh percaya diri sejak babak penyisihan hingga babak final, bersaing ketat dengan perwakilan sekolah dasar terbaik lainnya di seluruh wilayah Kecamatan Manisrenggo.
+
+Berkat ketenangan, ketepatan dalam menjawab soal-soal pengetahuan umum maupun mata pelajaran, serta kerja sama tim yang apik, Hana, Zilenka, dan Putri berhasil mengamankan posisi kedua di podium juara.
+
+Pihak sekolah menyambut gembira capaian ini. Prestasi tersebut diharapkan tidak hanya mengharumkan nama SDN 2 Nangsri, tetapi juga mampu memotivasi siswa-siswi lainnya untuk terus giat belajar, berkompetisi secara sehat, dan mengukir prestasi di bidang akademik maupun nonakademik.
+---
